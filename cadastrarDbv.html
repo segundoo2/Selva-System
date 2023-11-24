@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do desbravador</title>
+    <link rel="shortcut icon" href="assets/images/fav icon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/cadastrodbv.css">
+    
+</head>
+<body>
+    
+    <header>
+        <a href="home.html">
+            <img src="assets/images/fav icon.png" alt="logo reino selvagem" class="logo">
+            <h1>Selva System</h1>
+        </a>
+    </header>
+    
+    <main>
+        <h2>CADASTRO DO DESBRAVADOR</h2>
+        <section>
+
+            <div class="formdbv">
+
+                <form action="post">
+
+                    <h3>DADOS PESSOAIS</h3>
+
+                        <p>
+                            <label>Nome completo: </label>
+                            <input type="text" class="registrodados nomes">
+                        </p>
+                        
+                        <p>
+                            <label>Data de nascimento: </label>
+                            <input type="date" class="registrodados">
+                        
+                            <label class="idade">Idade: </label>
+                            <input type="number" class="registrodados" id="idade">  
+                        </p>
+
+                        <p>
+                            <label class="uploadArquivos">RG: </label>
+                            <input type="file" accept=".jpg, .jpeg, .png" class="registrodados">
+                        
+                            <label class="uploadArquivos">CPF: </label>
+                            <input type="file" accept=".jpg, .jpeg, .png" class="registrodados ">
+                            <span id="info"><br>Escolha um arquivo de imagem.</span>
+
+                            
+                        </p>
+                        
+                        <p>
+                            <label class="uploadArquivos">Comprovante de residência: </label>
+                            <input type="file" accept=".jpg, .jpeg, .png" class="registrodados ">
+                            <span id="info"><br>Escolha um arquivo de imagem.</span>
+                        </p>
+
+                        <p>
+                            <label class="uploadArquivos">Cartão do SUS: </label>
+                            <input type="file" accept=".jpg, .jpeg, .png" class="registrodados ">
+                            <span id="info"><br>Escolha um arquivo de imagem.</span>
+                        </p>
+                        
+                        <h3>INFORMAÇÕES ADICIONAIS</h3>
+                        
+                        <p>
+                            <label>Unidade: </label>
+                            <input type="text" class="registrodados">
+
+                            <label>Cargo: </label>
+                            <input type="text" class="registrodados"> 
+                        </p>
+
+                        
+                        <p>
+                            <label class="nomes">Nome da mãe: </label>
+                            <input type="text" class="registrodados nomes">
+                        </p>
+                        
+                        <p>
+                            <label >Nome do pai: </label>
+                            <input type="text" class="registrodados nomes" id="pai">
+                        </p>
+                        
+                        <p>
+                            <label>Responsável: </label>
+                            <input type="text" class="registrodados nomes" id="responsavel">
+                        </p>
+
+                </form>
+        
+            </div>
+        
+        </section>
+
+    </main>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
