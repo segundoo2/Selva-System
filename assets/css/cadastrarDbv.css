@@ -112,6 +112,12 @@ label {
     font-size: 15pt;
 }
 
+#botao-cadastro {
+    text-align: center;
+    margin-top: 20px;
+    border: solid rgb(141, 141, 141);
+}
+
 footer {
     text-align: center;
 }
