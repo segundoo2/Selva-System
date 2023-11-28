@@ -33,23 +33,27 @@ header > a > p:hover {
     color: rgb(112, 112, 112);
 }
 
-main {
+nav {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-columns: repeat(4, 25%);
+    grid-row-gap: 3px;
+    grid-column-gap: 3px;
+    align-items: center;
+    justify-items: center;
 }
 
 .opcao {
     text-align: center;
     height: 200px;
     width: 200px;
-    margin: 100px;
+    margin: 30px;
     border-radius: 5px;
     background-color: white;
     font: bold 18pt arial;
 }
 
 .opcao > a > img {
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 1px;
     height: 90px;
     width: 90px;
