@@ -1,6 +1,6 @@
 function validarLogin() {
-    var usuario = "adm"
-    var senha = "rs"
+    var usuario = "edilson"
+    var senha = "22"
     var formUser = document.querySelector('input#user')
     var formPassword = document.querySelector('input#password')
 
