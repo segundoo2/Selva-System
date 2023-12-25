@@ -20,14 +20,14 @@ header {
 header > a{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    height: 150px;
+    margin:20px auto 30px;
+    height: 100px;
     text-decoration: none;
 }
 
 header > a > p {
     color: rgb(158, 158, 158);
-    font: bold 40pt arial, sans-serif;
+    font: bold 25pt arial, sans-serif;
     display: flex;
     align-items: center;
 }
@@ -39,11 +39,12 @@ header > a > p:hover {
                         /* Configuração do menu de opções */
 nav {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(1, 100%);
     grid-row-gap: 3px;
     grid-column-gap: 3px;
     align-items: center;
     justify-items: center;
+    margin: auto;
 }
 
 .opcao {
@@ -96,10 +97,46 @@ footer {
     box-shadow: 0 0 15px white;
 }
 /* --------------------------------------------------------------------------------------------- */
-                            /* Configuração dos créditos */
+                                /* Configuração dos créditos */
 #autor {
     color: gray;
     font-size: 16pt;
     margin: 50px;
 }
 /* --------------------------------------------------------------------------------------------- */
+                        /* Configuração de responsividade para tablets */
+            @media screen and (min-width: 601px) {
+    body {
+        padding-bottom: 300px;
+    }
+    
+    header > a {
+        height: 100px;
+        margin:20px auto 30px;
+    }
+    header > a > p {
+        font-size: 25pt;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        margin: auto;
+    }
+    
+    }
+/* --------------------------------------------------------------------------------------------- */
+                        /* Configuração de responsividade para desktops */
+@media screen and ( min-width: 1024px) {
+    header > a {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    header > a > p {
+        font-size: 40pt;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+    }
+}
+    /* --------------------------------------------------------------------------------------------- */
