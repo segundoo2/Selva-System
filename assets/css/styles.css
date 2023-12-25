@@ -1,10 +1,8 @@
+/* ----------------------------------------------------------------------*/
+                        /*Configuração geral*/
 * {
     margin: 0;
     padding: 0;
-}
-
-header {
-    border: solid 5px;
 }
 
 body {
@@ -17,7 +15,8 @@ body {
     background: linear-gradient(to right bottom, green, black);
     height: 100vh;
 }
-
+/* ----------------------------------------------------------------------*/
+            /*Configurações gerais do formulário do login*/
 form {
     display: flex;
     flex-flow: column nowrap;
@@ -26,15 +25,17 @@ form {
     padding: 20px 30px;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0 0 8px rgba(0,0,0,.5);
-}
-
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}   
+/* ----------------------------------------------------------------------*/
+                /*Botão de fecha (só para enfeite)*/
 .login-close {
     font-size: 22px;
     text-align: right;
     padding-bottom: 5px;
 }
-
+/* ----------------------------------------------------------------------*/
+                    /*Título do formulário*/
 .login-tittle {
     font-size: 22px;
     font-weight: bolder;
@@ -45,29 +46,34 @@ form {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+/* ----------------------------------------------------------------------*/
+                /*Configuração gerais dos campos*/
 form > div {
     display: flex;
     flex-flow: column nowrap;
     justify-content: stretch;
 }
-
+/* ----------------------------------------------------------------------*/
+                /*Configuração dos labels dos campos*/
 form > div > label {
     font-size: 18px;
     font-weight: bold;
     color: gray;
 }
-
+/* ----------------------------------------------------------------------*/
+                /*Configuração dos input dos campos*/
 form > div > input {
     padding: 10px;
     border: 1px solid lightgray;
 }
-
+/* ----------------------------------------------------------------------*/
+                /*Configuração da recuperação de senha*/
 .login-link-forget-password {
     text-decoration: none;
-    color: rgb(133,169,247);
+    color: rgb(133, 169, 247);
 }
-
+/* ----------------------------------------------------------------------*/
+                /*Configuração do botão de login*/
 .login-button {
     background: linear-gradient(to right, green, black);
     border: none;
@@ -84,7 +90,8 @@ form > div > input {
     box-shadow: 0 0 4px 0px black;
     cursor: pointer;
 }
-
+/* ----------------------------------------------------------------------*/
+                    /*Configuração do rodapé*/
 .autoria {
     display: flex;
     justify-content: center;
@@ -100,3 +107,4 @@ form > div > input {
     font: bold 10pt arial, sans-serif;
     color: rgb(169, 169, 169);
 }
+/* ----------------------------------------------------------------------*/
