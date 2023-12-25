@@ -108,3 +108,11 @@ form > div > input {
     color: rgb(169, 169, 169);
 }
 /* ----------------------------------------------------------------------*/
+        /* Responsividade para dispositivos móveis até 600px */
+@media screen and (max-width: 600px) {
+    form {
+        width: 250px;
+        height: 400px;
+        margin: auto;
+    }
+}
