@@ -1,3 +1,5 @@
+/* --------------------------------------------------------------------------------------------- */
+                            /* Configurações gerais da página */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +11,8 @@ body {
     background: linear-gradient(to right bottom, green/*rgb(155,240,255)*/, black/*rgb(155,54,146)*/);
     
 }
-
+/* --------------------------------------------------------------------------------------------- */
+                        /* Configuração do botão de retorno a página home */
 header {
     border-bottom: solid 3px rgba(91, 91, 91, 0.619);
 }
@@ -32,7 +35,8 @@ header > a > p {
 header > a > p:hover {
     color: rgb(112, 112, 112);
 }
-
+/* --------------------------------------------------------------------------------------------- */
+                        /* Configuração do menu de opções */
 nav {
     display: grid;
     grid-template-columns: repeat(4, 25%);
@@ -68,11 +72,13 @@ nav {
 div.opcao:hover {
     box-shadow: 0 0 8px rgb(255, 255, 255);
 }
-
+/* --------------------------------------------------------------------------------------------- */
+                            /* Configuração geral do rodapé */
 footer {
     text-align: center;
 }
-
+/* --------------------------------------------------------------------------------------------- */
+                                /* Configuração do botão de logout */
 #sair {
     margin-top: -200px;
     margin-bottom: 100px;
@@ -89,9 +95,11 @@ footer {
     color: white;
     box-shadow: 0 0 15px white;
 }
-
+/* --------------------------------------------------------------------------------------------- */
+                            /* Configuração dos créditos */
 #autor {
     color: gray;
     font-size: 16pt;
     margin: 50px;
 }
+/* --------------------------------------------------------------------------------------------- */
