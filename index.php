@@ -28,9 +28,9 @@
                 </form>
                 <footer class="mt-5 mb-1">
                     <p class="text-center text-secondary">
-                        Autor: Edilson Segundo
+                        <small>Autor: Edilson Segundo</small>
                         <br>
-                        Clube: Reino Selvagem
+                        <small>Clube: Reino Selvagem</small>
                     </p>
                 </footer>
             </div>
