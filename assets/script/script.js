@@ -1,15 +1,12 @@
 function validarLogin() {
-    var usuario = "edilson"
-    var senha = "22"
-    var formUser = document.querySelector('input#user')
-    var formPassword = document.querySelector('input#password')
-
-    if (formPassword.value.length == 0 || formUser.value.length == 0){
-        alert ("[ERRO] Você precisa digitar usuário e senha")
-    }  
-    if (formUser.value != usuario || formPassword.value != senha) {
-        alert ("[ERRO] Login invalido!")
-    } else {
-        window.location.href = 'home.html'
-    }     
+    email = document.querySelector("#email")
+    senha = document.querySelector("#senha")
+    
+    if (email.value.length === 0 && senha.value.length === 0) {
+        window.alert ("[ERRO] Você precisa preencher os campos.")
+        e.preventDefault()
+    } else if(email.value.length === 0 || senha.value.length === 0) {
+        window.alert ("[ERRO] Um dos campos estão vazio.")
+        e.preventDefault()
+    }
 }
